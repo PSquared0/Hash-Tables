@@ -105,6 +105,9 @@ def array_print(array):
     print(string)
 
 
+
+
+
 # Testing
 arr = array(1)
 
@@ -127,3 +130,18 @@ print(arr.capacity)
 array_remove(arr, "STRING5")
 array_print(arr)
 print(arr.capacity)
+
+
+
+# # Testing
+# arr = array(1)
+
+# array_insert(arr, "STRING1", 0)
+# array_print(arr)
+# array_pop(arr, 0)
+# array_print(arr)
+# array_insert(arr, "STRING1", 0)
+# array_append(arr, "STRING4")
+# array_insert(arr, "STRING2", 1)
+# array_insert(arr, "STRING3", 2)
+# array_print(arr)
